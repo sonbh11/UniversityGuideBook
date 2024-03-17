@@ -1,0 +1,246 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <RelativeLayout android:id="@+id/content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout android:id="@+id/page_frame_1_ek1"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <View
+                android:id="@+id/_bg__frame_1_ek2"
+                android:background="@drawable/_bg__frame_1_ek2_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="410dp"
+                android:layout_height="820dp" />
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:background="@drawable/rectangle_1_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="410dp"
+                android:layout_height="820dp" />
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="39dp"
+                android:layout_width="108dp"
+                android:layout_height="47.5dp"
+                android:text="@string/cancel"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/add"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="295dp"
+                android:layout_marginTop="39dp"
+                android:layout_width="108dp"
+                android:layout_height="47.5dp"
+                android:text="@string/add_qeustion"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <EditText
+                android:id="@+id/title_text"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="150dp"
+                android:textSize="20sp"
+                android:background="@null"
+                android:textColor="@color/black">
+            </EditText>
+
+            <ImageView
+                android:id="@+id/question_item_line"
+                android:src="@drawable/question_item_line"
+                android:layout_marginStart="112dp"
+                android:layout_marginTop="178dp"
+                android:layout_width="238dp"
+                android:layout_height="2dp"
+                android:contentDescription="@string/question_item_line" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="153dp"
+                android:layout_width="67dp"
+                android:layout_height="31dp"
+                android:text="@string/title"
+                />
+
+            <View
+                android:id="@+id/main_text_space"
+                android:background="@drawable/rectangle_2_shape"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="211dp"
+                android:layout_width="360dp"
+                android:layout_height="300dp" />
+
+            <EditText
+                android:id="@+id/main_text"
+                android:layout_width="320dp"
+                android:layout_height="280dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="220dp"
+                android:textSize="13sp"
+                android:gravity="top|start"
+                android:background="@null"
+                android:hint="질문사항을 적어주세요"
+                android:textColor="@color/black">
+            </EditText>
+
+            <View
+                android:id="@+id/tag_bg"
+                android:background="@drawable/tag_add_shape"
+                android:alpha="0.5"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="532dp"
+                android:layout_width="85dp"
+                android:layout_height="40dp" />
+
+            <ImageButton
+                android:id="@+id/tag_1"
+                android:background="@drawable/tag_shape"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="604dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:contentDescription="tag_1_button" />
+
+            <ImageButton
+                android:id="@+id/tag_4"
+                android:background="@drawable/tag_shape"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="684dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:contentDescription="tag_4_button" />
+
+            <ImageButton
+                android:id="@+id/tag_5"
+                android:background="@drawable/tag_shape"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="684dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:contentDescription="tag_5_button" />
+
+            <ImageButton
+                android:id="@+id/tag_2"
+                android:background="@drawable/tag_shape"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="604dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:contentDescription="tag_2_button" />
+
+            <ImageButton
+                android:id="@+id/tag_3"
+                android:background="@drawable/tag_shape"
+                android:layout_marginStart="281dp"
+                android:layout_marginTop="604dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:contentDescription="tag_3_button" />
+
+            <TextView
+                android:id="@+id/tag_msg"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="540dp"
+                android:layout_width="72dp"
+                android:layout_height="24.5dp"
+                android:text="@string/add_tag"
+                />
+
+            <TextView
+                android:id="@+id/tag_1_text"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="611dp"
+                android:layout_width="72dp"
+                android:layout_height="24.5dp"
+                android:text="학사일정"
+                />
+
+            <TextView
+                android:id="@+id/tag_2_text"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="611dp"
+                android:layout_width="72dp"
+                android:layout_height="24.5dp"
+                android:text="장학금"
+                />
+
+            <TextView
+                android:id="@+id/tag_3_text"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="295dp"
+                android:layout_marginTop="611dp"
+                android:layout_width="72dp"
+                android:layout_height="24.5dp"
+                android:text="성적"
+                />
+
+            <TextView
+                android:id="@+id/tag_4_text"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="692dp"
+                android:layout_width="72dp"
+                android:layout_height="24.5dp"
+                android:text="진로"
+                />
+
+            <TextView android:id="@+id/tag_5_text"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="171dp"
+                android:layout_marginTop="692dp"
+                android:layout_width="72dp"
+                android:layout_height="24.5dp"
+                android:text="대학"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</HorizontalScrollView>
